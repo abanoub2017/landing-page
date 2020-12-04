@@ -1,0 +1,250 @@
+/*
+  General Color
+ ***************
+  * Heading Color : #1e1e1e
+  * paragraph color : #4a4a4a
+  * Sec Color : #00b4c6
+  * hover button Color : #0088e8
+  * hover link Color : #f55858
+  *gradient color : linear-gradient( 135deg, rgba(0, 136, 232, 1) 0%, rgba(0, 182, 198, 1) 0%, rgba(0, 136, 232, 1) 100% )
+  *box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+*/
+
+
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+.header .navbar-brand {
+    color: #1e1e1e;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.header .navbar-nav .nav-item {
+    padding: 0 9px;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 11px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+    color: #f55858;
+}
+
+/* Wellcome Area */
+.wellcome-area {
+    background: url('../images/banner-bg.png') center center no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    /* margin-top: -10vh; */
+}
+
+
+.wellcome-area .content-wellcome h1 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 80px;
+    letter-spacing: 1.4px;
+    margin: 110px 0 0 0;
+    color: #fff;
+
+}
+.wellcome-area .content-wellcome p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    margin: 32px 0 50px 0;
+}
+.wellcome-area .content-wellcome .main-button-wellcome {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #f55858;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.wellcome-area .content-wellcome .main-button-wellcome:hover{
+    background-color: #0088e8;
+}
+.wellcome-area .img-wellcome {
+    margin: 100px 0;
+}
+
+/* About */
+.about{
+    padding: 120px 0px;
+    border-bottom: 1px solid #eee;
+}
+.about .right , .about2 .right{
+    align-self: center;
+}
+.about .right-heading h5{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+    letter-spacing: .25px;
+}
+.about .right-text p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #4a4a4a;
+    letter-spacing: .5px;
+}
+.about .main-about{
+    font-size: 11px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #00b4c6;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.about .main-about:hover {
+    background-color: #0088e8;
+}
+
+
+/* About 2 */
+.about2{
+    padding: 120px 0px;
+}
+.about2 h5{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+    letter-spacing: .25px;
+}
+.about2 p{
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #4a4a4a;
+    letter-spacing: .5px;
+}
+.about2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.about2 .img-about {
+    float: left;
+    display: inline;
+}
+.about2 ul li .text {
+    margin-left: 75px;
+}
+.about2 ul li .text h6 {
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+/* Services */
+.service{
+    padding: 120px 0px;
+    background: linear-gradient( 135deg, rgba(0, 136, 232, 1) 0%, rgba(0, 182, 198, 1) 0%, rgba(0, 136, 232, 1) 100% )
+}
+.service .card{
+    text-align: center;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: none;
+    padding: 40px 30px;
+}
+.service .card .card-title img{
+    background: #00b4c6;
+    border-radius: 13px;
+    padding: 14px;
+}
+.service .card .card-body .title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+}
+.service .card .card-body .text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.service .card  .card-body .action {
+    margin-top: 30px;
+}
+.service .card .card-body .action a{
+    font-size: 11px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #00b4c6;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+/* contact-us */
+.contact-us {
+display: none;
+}
+.contact-us .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.contact-us .contact-form{
+    padding: 25px 83px 0px;
+    background: linear-gradient( 135deg, rgba(0, 136, 232, 1) 0%, rgba(0, 182, 198, 1) 0%, rgba(0, 136, 232, 1) 100% );
+    color: #fff;
+}
+.contact-us .contact-form label {
+    font-size: 13px;
+}
+.contact-us .contact-form input , .contact-us .contact-form textarea {
+    background: transparent;
+    color: #fff;
+}
+
+/* Footer */
+footer{
+    background-color: #fff;
+    padding: 60px 0px;
+}
+footer .copy-right{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4a4a4a;
+    letter-spacing: 0.88px;
+    text-transform: capitalize;
+
+}
